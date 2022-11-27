@@ -27,7 +27,7 @@ body {
   border-radius: .7rem;
   text-align: center;
   padding: 1rem;
-  max-width: 25rem;
+  max-width: 35rem;
   margin: 1rem;
 }
 
@@ -35,7 +35,7 @@ h1, input {
   font-weight: 400;
 }
 
-input, button {
+input, button, p {
   font-size: 1.2rem;
   border-radius: .35rem;
 }
