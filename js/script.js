@@ -3,7 +3,7 @@ const button = document.querySelector('#generate');
 
 button.addEventListener('click', (event) => {
   console.log(input.value)
-  generateQRCode(input.value);
+  generateQRCode(input);
 })
 
 function generateQRCode(input) {
@@ -11,7 +11,7 @@ function generateQRCode(input) {
     width: 300,
     height: 300,
     type: "svg",
-    data: `${input.value}`,
+    data: `"${input.value}"`,
     image: "./assets/github.svg",
     dotsOptions: {
         color: "#4267b2",
