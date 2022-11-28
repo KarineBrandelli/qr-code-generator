@@ -14,16 +14,19 @@ function generateQRCode(input) {
     data: `"${input.value}"`,
     image: "./assets/github.svg",
     dotsOptions: {
-        color: "#3685FE",
-        type: "rounded"
+      color: "#3685FE",
+      type: "rounded"
     },
     backgroundOptions: {
-        color: "#e9ebee",
+      color: "#e9ebee",
     },
     imageOptions: {
-        crossOrigin: "anonymous",
-        margin: 5,
-        imageSize: 0.3
+      crossOrigin: "anonymous",
+      margin: 5,
+      imageSize: 0.3
+    },
+    qrOptions: {
+      errorCorrectionLevel: "H"
     }
   });
   
