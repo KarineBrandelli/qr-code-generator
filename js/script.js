@@ -29,7 +29,3 @@ function generateQRCode(input) {
   
   qrCode.append(document.querySelector(".container-image"));
 }
-
-
-
-
