@@ -8,8 +8,8 @@ button.addEventListener('click', (event) => {
 
 function generateQRCode(input) {
   const qrCode = new QRCodeStyling({
-    width: 300,
-    height: 300,
+    width: 290,
+    height: 290,
     type: "svg",
     data: `"${input.value}"`,
     image: "./assets/github.svg",
@@ -27,6 +27,9 @@ function generateQRCode(input) {
     },
     qrOptions: {
       errorCorrectionLevel: "H"
+    },
+    cornersSquareOptions: {
+      color: "#225cb4"
     }
   });
   
