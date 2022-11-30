@@ -85,13 +85,15 @@ a {
 }
 
 .modal {
-  border: 1px solid green;
   text-align: center;
+
+  padding: 1rem 5rem;
+  background-color: #D3DFED;
+  border: .8rem solid #FFFFFF;
+  border-radius: .75rem;
 }
 
 .container-image {
-  border: 1px solid blue;
-
   padding: 1rem;
   max-width: 35rem;
 }

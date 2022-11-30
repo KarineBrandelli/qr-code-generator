@@ -4,7 +4,13 @@ const modal = document.querySelector('.modal');
 
 button.addEventListener('click', (event) => {
   generateQRCode(input);
+
+  modal.showModal();
 });
+
+// buttonclose.addEventListener('click', (event) => {
+//   modal.close();
+// });
 
 function generateQRCode(input) {
   if (input.value != '') {
