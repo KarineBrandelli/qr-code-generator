@@ -95,8 +95,8 @@ a {
 }
 
 .modal::backdrop {
-  background-color: #3685FE;
-  opacity: .4;
+  background: linear-gradient(45deg, #5d93e4, #002e74 );
+  opacity: .8;
 }
 
 .container-image {
