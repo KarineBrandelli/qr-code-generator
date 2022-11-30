@@ -1,5 +1,6 @@
 const input = document.querySelector('#url-text');
 const button = document.querySelector('#generate');
+const modal = document.querySelector('.modal');
 
 button.addEventListener('click', (event) => {
   generateQRCode(input);
