@@ -94,6 +94,11 @@ a {
   border-radius: .75rem;
 }
 
+.modal::backdrop {
+  background-color: #3685FE;
+  opacity: .4;
+}
+
 .container-image {
   padding: 1rem;
   max-width: 35rem;
