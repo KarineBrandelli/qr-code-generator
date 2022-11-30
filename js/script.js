@@ -8,10 +8,6 @@ button.addEventListener('click', (event) => {
   modal.showModal();
 });
 
-// buttonclose.addEventListener('click', (event) => {
-//   modal.close();
-// });
-
 function generateQRCode(input) {
   if (input.value != '') {
     const qrCode = new QRCodeStyling({
