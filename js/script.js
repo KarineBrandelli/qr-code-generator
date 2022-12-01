@@ -11,8 +11,8 @@ button.addEventListener('click', (event) => {
 function generateQRCode(input) {
   if (input.value != '') {
     const qrCode = new QRCodeStyling({
-      width: 230,
-      height: 230,
+      width: 250,
+      height: 250,
       type: "svg",
       data: `"${input.value}"`,
       image: "./assets/github.svg",
