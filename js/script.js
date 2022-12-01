@@ -12,7 +12,7 @@ function generateQRCode(input) {
     const qrCode = new QRCodeStyling({
       width: 250,
       height: 250,
-      type: "svg",
+      type: "jpeg",
       data: `"${input.value}"`,
       image: "./assets/github.svg",
       dotsOptions: {
@@ -40,7 +40,7 @@ function generateQRCode(input) {
     modal.showModal();
 
     download.addEventListener('click', (e) => {
-      qrCode.download({ name: "qr", extension: "svg" });
+      qrCode.download({ name: "qr", extension: "jpeg" });
     });
 
   } else {
