@@ -108,6 +108,10 @@ a {
   padding: 1rem 0rem;
 }
 
+.download {
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 425px) {
   body {
     background-color: #FFFFFF;

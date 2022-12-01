@@ -1,6 +1,7 @@
 const input = document.querySelector('#url-text');
 const button = document.querySelector('#generate');
 const modal = document.querySelector('.modal');
+const download = document.querySelector('.download');
 
 button.addEventListener('click', (event) => {
   generateQRCode(input);
@@ -37,6 +38,11 @@ function generateQRCode(input) {
     qrCode.append(document.querySelector(".container-image"));
 
     modal.showModal();
+
+    download.addEventListener('click', (e) => {
+      qrCode.download({ name: "qr", extension: "svg" });
+    });
+
   } else {
     alert('Input cannot be empty.')
   }
