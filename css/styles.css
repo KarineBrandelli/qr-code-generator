@@ -35,6 +35,10 @@ h1, input, h3 {
   font-weight: 400;
 }
 
+.want-to-know {
+  font-size: 1rem;
+}
+
 input, button, p {
   font-size: 1.2rem;
   border-radius: .35rem;
@@ -88,28 +92,30 @@ a {
   text-align: center;
   margin: auto;
 
-  padding: 1rem 5rem;
-  border: .8rem solid #FFFFFF;
+  padding: 1rem;
+  border: none;
   border-radius: .75rem;
 }
 
 .modal::backdrop {
   background: linear-gradient(45deg, #5d93e4, #002e74 );
-  opacity: .8;
 }
 
 .modal[open] {
-  animation: fade-in 1000ms forwards;
+  animation: slide-up 1000ms forwards, fade-in 1000ms forwards;
 }
 
 .container-image {
-  padding: 1rem;
-  max-width: 35rem;
+  padding: 1rem .5rem;
 }
 
 @media only screen and (max-width: 425px) {
   body {
     background-color: #FFFFFF;
+  }
+
+  h3 {
+    font-size: 1rem;
   }
 }
 
@@ -119,5 +125,14 @@ a {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
