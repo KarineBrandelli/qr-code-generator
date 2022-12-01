@@ -5,7 +5,7 @@ const modal = document.querySelector('.modal');
 button.addEventListener('click', (event) => {
   generateQRCode(input);
 
-  modal.showModal();
+
 });
 
 function generateQRCode(input) {
@@ -37,6 +37,8 @@ function generateQRCode(input) {
     });
     
     qrCode.append(document.querySelector(".container-image"));
+
+    modal.showModal();
   } else {
     alert('Input cannot be empty.')
   }
