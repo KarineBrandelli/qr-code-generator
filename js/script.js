@@ -21,7 +21,7 @@ function generateQRCode(input) {
         type: "classy"
       },
       backgroundOptions: {
-        color: "#e9ebee",
+        color: "#FFFFFF",
       },
       imageOptions: {
         crossOrigin: "anonymous",
