@@ -89,16 +89,15 @@ a {
 }
 
 .modal {
-  text-align: center;
   margin: auto;
-
-  padding: 1rem;
   border: none;
+  padding: 1rem 3.5rem;
+  text-align: center;
   border-radius: .75rem;
 }
 
 .modal::backdrop {
-  background: linear-gradient(45deg, #5d93e4, #002e74 );
+  background: linear-gradient(45deg, #5d93e4, #002e74);
 }
 
 .modal[open] {
@@ -106,7 +105,7 @@ a {
 }
 
 .container-image {
-  padding: 1rem .5rem;
+  padding: 1rem 0rem;
 }
 
 @media only screen and (max-width: 425px) {
@@ -116,6 +115,10 @@ a {
 
   h3 {
     font-size: 1rem;
+  }
+
+  .modal {
+    padding: 1rem;
   }
 }
 
