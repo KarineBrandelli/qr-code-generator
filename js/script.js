@@ -14,7 +14,7 @@ function generateQRCode(input) {
       height: 250,
       type: "jpeg",
       data: `"${input.value}"`,
-      image: "./assets/github.svg",
+      image: "",
       dotsOptions: {
         color: "#3685FE",
         type: "classy"
