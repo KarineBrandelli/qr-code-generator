@@ -22,21 +22,25 @@
   <body>
     <div class="container-text">
       <h1>QR Code Generator</h1>
-      <p>Paste a url or enter text to create QR Code</p>
-      <input
-        id="url-text"
-        type="text"
-        placeholder="Enter your url or text">
-      <p>Paste a url or upload image to style your QR Code</p>
-      <input
-        id="url-image"
-        type="text"
-        placeholder="Enter your url or upload image">
+      <div>
+        <label>Paste a url or enter text to create QR Code</label>
+        <input
+          id="url-text"
+          type="text"
+          placeholder="Enter your url or text">
+      </div>
+      <div>
+        <label>Upload image to style your QR Code</label>
+        <input
+          id="url-image"
+          type="file">
+      </div>
       <button
         id="generate">
         Generate
       </button>
     </div>
+    
     <div class="social-media">
       <a href="https://github.com/KarineBrandelli/qr-code-generator">
         <p>KarineBrandelli</p>
