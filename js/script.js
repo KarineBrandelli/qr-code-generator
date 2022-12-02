@@ -9,12 +9,12 @@ button.addEventListener('click', (event) => {
   generateQRCode(input, inputImage);
 });
 
-inputImage.addEventListener('change', (event) => {
+let showImage = '';
+
+inputImage.addEventListener('change', (evento) => {
   inputImageName.value = inputImage.value;
 
-  console.log(inputImageName.value)
-  console.log(inputImage.value)
-  console.log(inputImage)
+  showImage = URL.createObjectURL(evento.target.files[0]);
 });
 
 function generateQRCode(input, inputImage) {
@@ -24,7 +24,7 @@ function generateQRCode(input, inputImage) {
       height: 250,
       type: "jpeg",
       data: `${input.value}`,
-      image: `${inputImage.value}`,
+      image: `${showImage}`,
       dotsOptions: {
         color: "#3685FE",
         type: "classy"
