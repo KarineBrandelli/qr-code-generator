@@ -50,7 +50,7 @@ p {
   padding-bottom: .5rem;
 }
 
-.want-to-know {
+.want-to-know, h3 {
   font-size: 1rem;
 }
 
@@ -148,9 +148,10 @@ a {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 525px) {
   .container-text {
     width: 25rem;
+    margin: 1rem;
   }
 }
 
@@ -159,8 +160,22 @@ a {
     background-color: #FFFFFF;
   }
 
-  h3 {
-    font-size: 1rem;
+  .container-text {
+    width: 20rem;
+  }
+
+  h1 {
+    font-size: 1.65rem;
+  }
+
+  p, input {
+    font-size: .85rem;
+  }
+
+  .image-label {
+    font-size: .8rem;
+    margin-left: -5.1rem;
+    margin-top: .55rem;
   }
 
   .modal {
