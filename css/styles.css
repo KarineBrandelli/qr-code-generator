@@ -39,7 +39,7 @@ h1, input, h3 {
   font-size: 1rem;
 }
 
-input, button, p {
+input, button, p, label {
   font-size: 1.2rem;
   border-radius: .35rem;
 }
@@ -143,3 +143,20 @@ a {
     transform: translateY(0%);
   }
 }
+
+
+input[type='file'] {
+  display: none;
+}
+
+.image-label {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: .5rem;
+
+  position: absolute;
+}
+
+
