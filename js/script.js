@@ -1,7 +1,10 @@
 const input = document.querySelector('#url-text');
+const inputImage = document.querySelector('#select-file');
+const inputImageName = document.querySelector('.image-name');
 const button = document.querySelector('#generate');
 const modal = document.querySelector('.modal');
 const download = document.querySelector('.download');
+console.log(inputImage)
 
 button.addEventListener('click', (event) => {
   generateQRCode(input);
