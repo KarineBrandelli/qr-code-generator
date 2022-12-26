@@ -4,6 +4,11 @@ const inputImageName = document.querySelector('.image-name');
 const button = document.querySelector('#generate');
 const modal = document.querySelector('.modal');
 const download = document.querySelector('.download');
+const newButton = document.querySelector('.new');
+
+newButton.addEventListener('click', (e) => {
+  window.location.href = "./index.html";
+});
 
 button.addEventListener('click', (event) => {
   generateQRCode(input);
