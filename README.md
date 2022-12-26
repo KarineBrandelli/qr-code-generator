@@ -11,8 +11,8 @@
 ## Preview 🔎
 
 <p align="center">
-  <img src="./assets/qrcode.png" width=48%>
-  <img src="./assets/qrcode-modal.png" width=48%>
+  <img src="./assets/images/qrcode.png" width=48%>
+  <img src="./assets/images/qrcode-modal.png" width=48%>
 <p>
 
 <hr>
