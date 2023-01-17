@@ -32,11 +32,14 @@ body {
   margin: 1rem;
 }
 
-.upload-img, .url-text {
+.upload-img,
+.url-text {
   width: 100%;
 }
 
-h1, input, h3 {
+h1,
+input,
+h3 {
   font-weight: 400;
 }
 
@@ -50,11 +53,14 @@ p {
   padding-bottom: .5rem;
 }
 
-.want-to-know, h3 {
+.want-to-know,
+h3 {
   font-size: 1rem;
 }
 
-input, button, label {
+input,
+button,
+label {
   font-size: 1.2rem;
   border-radius: .35rem;
 }
